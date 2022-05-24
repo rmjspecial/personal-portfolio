@@ -35,7 +35,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author1**
 
 ### Rejoice Evans
-- GitHub: [@githubhandle] ( https://github.com/rmjspecial)
+- GitHub: [@githubhandle]( https://github.com/rmjspecial)
 - Twitter: [@twitterhandle](https://twitter.com/rmjspecial2)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/rejoice-evans-74882122a/)
 
