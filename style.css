@@ -138,6 +138,7 @@ header {
   display: flex;
   margin: 0;
   padding-top: 12px;
+  padding-left: 20px;
 }
 
 .social-icons li {
@@ -157,6 +158,8 @@ header {
   grid-template-rows: 1fr;
   grid-gap: 114px 0;
   padding-top: 114px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .works-grid-container > *:nth-child(1) {
@@ -178,6 +181,7 @@ header {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .work-period ul {
@@ -185,6 +189,14 @@ header {
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding-left: 0;
+}
+
+h1.section-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-bottom: 0;
 }
 
 .work-categories li {
@@ -226,6 +238,7 @@ header {
   display: -ms-inline-flexbox;
   display: inline-flex;
   list-style: none;
+  padding-left: 0;
 }
 
 /* About section */
@@ -235,14 +248,27 @@ header {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-image: url(../personal-portfolio/image/baseaboutmyself.png);
+  background-image: url(image/baseaboutmyself.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+section.about-myself {
+  margin-top: 108px;
 }
 
 /* Other info */
 .other-info-wrap {
   list-style: none;
+}
+
+h2.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
 }
 
 .other-info-wrap .other-info-list {
@@ -264,6 +290,8 @@ header {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
 
 .other-info-details {
@@ -277,10 +305,11 @@ header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #fff;
   padding: 9px 12px;
   border-radius: 8px;
   margin-bottom: 12px;
+  display: flex;
+  background-color: #f7f7f9;
 }
 
 .view-list-item img.lang-icon {
