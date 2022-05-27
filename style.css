@@ -6,7 +6,7 @@
 
 body {
   background-color: #e5e5e5;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -76,8 +76,8 @@ header {
   line-height: 24px;
   justify-items: center;
   color: #344563;
-  margin-left: 20px;
-  padding-top: 12px;
+  margin-left: 5px;
+  padding-top: 4px;
 }
 
 .lets-connect {
@@ -96,19 +96,17 @@ header {
 
 /* buttons */
 .button {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
+  padding: 10px;
   width: fit-content;
-  height: 48px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  margin: 20px;
+  background: #fff;
+  border: 1px solid #396df2;
+  border-radius: 10px;
+  color: #344563;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  text-transform: capitalize;
-  border-radius: 8px;
-  margin-top: 24px;
-  background-color: transparent;
 }
 
 .button:hover {
@@ -116,19 +114,12 @@ header {
   color: #fff;
 }
 
-.button:focus {
-  border: 1px solid #2230d2;
-  background-color: #2230d2;
-  color: #fff;
+.button:active {
+  background-color: #172b4d;
+  transition: 0.3s;
 }
 
-.button-enabled {
-  color: #396df2;
-  border: 1px solid #6070ff;
-}
-
-.button-disabled,
-.button[disabled] {
+.button:disabled {
   border: 1px solid #5e6c84;
   background-color: #fff;
   color: #5e6c84;
@@ -254,7 +245,7 @@ h1.section-title {
   background-position-x: right;
 }
 
-section.about-myself {
+.about-myself {
   margin-top: 108px;
 }
 
@@ -269,6 +260,8 @@ h2.section-title {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
 
 .other-info-wrap .other-info-list {
