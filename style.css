@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -49,7 +51,7 @@ header {
 .headline-wrap {
   background-image: url(image/background-img.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-color: #fff;
   background-position: top right;
   height: 770px;
@@ -246,7 +248,7 @@ h1.section-title {
 }
 
 .about-myself {
-  margin-top: 108px;
+  margin-top: 150px;
 }
 
 /* Other info */
@@ -320,18 +322,25 @@ h2.section-title {
 }
 
 .contact_container {
-  padding: 5px 20px 60px 0;
   height: 890px;
-  background-color: #fff;
-  background-image: url(image/Contactme.png);
   background-size: cover;
+  position: relative;
+}
+
+.background-contact {
+  position: absolute;
+  background-image: url(image/contact\ form\ shapes-mobile@2x.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-top-left-radius: 60px;
+  z-index: -11;
+  background-position: right;
+  width: 100%;
+  height: 100%;
+  background-color: #6070ff;
 }
 
 .contact_bg {
-  background-image: url(image/contact\ form\ shapes-mobile@2x.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
   padding-top: 28px;
   padding-left: 20px;
 }
@@ -387,4 +396,13 @@ h2.section-title {
 .contact-button:hover {
   background-color: #6070ff;
   color: white;
+}
+
+.background-white {
+  position: absolute;
+  background-color: #ffff;
+  border: none;
+  width: 100%;
+  height: 100%;
+  z-index: -111;
 }
