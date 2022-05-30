@@ -318,3 +318,73 @@ h2.section-title {
   line-height: 20px;
   color: #253858;
 }
+
+.contact_container {
+  padding: 5px 20px 60px 0;
+  height: 890px;
+  background-color: #fff;
+  background-image: url(image/Contactme.png);
+  background-size: cover;
+}
+
+.contact_bg {
+  background-image: url(image/contact\ form\ shapes-mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 28px;
+  padding-left: 20px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.other-info {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 16px;
+  margin-top: 120px;
+}
+
+.msg-dsc {
+  color: #ebebff;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 400px;
+  width: 327px;
+  padding-left: 16px;
+  padding-top: 2px;
+  margin: auto;
+}
+
+.contact_container .form {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.contact_container .form input,
+.textarea {
+  background: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  color: #172b4d;
+  font-size: 17px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.contact-button {
+  background-color: white;
+  padding: 12px 16px;
+}
+
+.contact-button:hover {
+  background-color: #6070ff;
+  color: white;
+}

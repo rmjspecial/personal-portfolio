@@ -91,7 +91,7 @@
             src="image/tonic.jpg"
             alt="portfolio screenshot"
           />
-          <h1 class="section-title margin-top-12">Portfolio</h1>
+          <h2 class="section-title margin-top-12">Portfolio</h2>
           <div class="work-period">
             <ul>
               <li class="text-color-primary">Canopy</li>
@@ -120,7 +120,7 @@
             src="image/to-do-list.jpg"
             alt="todolist screenshot"
           />
-          <h1 class="section-title margin-top-12">To do list app</h1>
+          <h2 class="section-title margin-top-12">To do list app</h2>
           <div class="work-period">
             <ul>
               <li class="text-color-primary">Canopy</li>
@@ -149,7 +149,7 @@
             src="image/fitness.png"
             alt="fitness screenshot"
           />
-          <h1 class="section-title margin-top-12">fitness</h1>
+          <h2 class="section-title margin-top-12">fitness</h2>
           <div class="work-period">
             <ul>
               <li class="text-color-primary">Canopy</li>
@@ -178,7 +178,7 @@
             src="image/styling.png"
             alt="styling screenshot"
           />
-          <h1 class="section-title margin-top-12">Printing</h1>
+          <h2 class="section-title margin-top-12">Printing</h2>
           <div class="work-period">
             <ul>
               <li class="text-color-primary">Canopy</li>
@@ -359,5 +359,51 @@
         </div>
       </div>
     </section>
+
+    <footer class="contact_container">
+      <div class="contact_bg">
+        <div class="container flex flex-column">
+          <h2 class="other-info">contact me</h2>
+          <p class="msg-dsc">
+            if you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I'd love
+            to help with it.
+          </p>
+        </div>
+      </div>
+      <form action="https://formspree.io/f/mgedpajj" method="post" class="form">
+        <input
+          type="text"
+          maxlength="30"
+          name="name"
+          required
+          placeholder="your name"
+        />
+
+        <input
+          type="email"
+          name="email"
+          required
+          maxlength="30"
+          placeholder="example@email.com"
+        />
+
+        <textarea
+          class="textarea"
+          aria-required="true"
+          name="message"
+          required
+          rows="10"
+          maxlength="500"
+          placeholder="Write your message here"
+        ></textarea>
+
+        <div class="form-group">
+          <button type="submit" class="button button-enabled contact-button">
+            Get In Touch
+          </button>
+        </div>
+      </form>
+    </footer>
   </body>
 </html>
