@@ -4,6 +4,12 @@
 
 > Description the project.
 
+#The purpose of this project is:
+
+- Understand how to parse a figma design to create a UI.
+- Use flexbox to place element in the page.
+- Use CSS grid to place elements in the page.
+- Build a personal portfolio site.
 
 ## Built With
 
