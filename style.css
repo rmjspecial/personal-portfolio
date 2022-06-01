@@ -28,6 +28,17 @@ header {
 
 .my-logo {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.nav-elements {
+  display: none;
 }
 
 .logo {
@@ -41,11 +52,8 @@ header {
 }
 
 .menu-bar {
-  padding-left: 260px;
   color: #6070ff;
   font-size: 20px;
-  padding-bottom: 13px;
-  padding-top: 10px;
 }
 
 .headline-wrap {
@@ -53,22 +61,18 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #fff;
-  background-position: top right;
+  background-position: 0 50px;
   height: 770px;
   border-bottom-left-radius: 100px;
   overflow: hidden;
+  padding-top: 150px;
 }
 
 .greetings {
   font-size: 40px;
   font-weight: 700;
   color: #172b4d;
-  line-height: 52px;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  padding-left: 24px;
-  padding-top: 100px;
+  max-width: 250px;
 }
 
 .headline-profile {
@@ -407,4 +411,109 @@ h2.section-title {
   width: 100%;
   height: 100%;
   z-index: -111;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    max-width: 1156px;
+    margin: 0 auto;
+  }
+
+  .headline-wrap {
+    background-image: url(image/back-desktop.svg);
+    background-position: center;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
+  .nav-elements {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    list-style-type: none;
+  }
+
+  .element-nav a {
+    text-decoration: none;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .greetings {
+    font-weight: 700;
+    font-size: 48px;
+    max-width: 500px;
+  }
+
+  .headline-profile {
+    max-width: 920px;
+    font-size: 20px;
+  }
+
+  .works-grid-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+  }
+
+  .card-content {
+    max-width: 496px;
+  }
+
+  .works-grid-item img {
+    max-width: 544px;
+  }
+
+  .works-grid-item:nth-child(2) img {
+    grid-column: 2/2;
+    grid-row: 1;
+  }
+
+  .works-grid-item:nth-child(2) .card-content {
+    grid-column: 1/2;
+  }
+
+  .works-grid-item:nth-child(4) img {
+    grid-column: 2/2;
+    grid-row: 1;
+  }
+
+  .works-grid-item:nth-child(4) .card-content {
+    grid-column: 1/2;
+  }
+
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .content-aboutleft {
+    max-width: 447px;
+  }
+
+  .content-aboutleft p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .other-info-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .view-list-item {
+    display: block;
+  }
+
+  .lang-icon {
+    display: block;
+  }
 }
