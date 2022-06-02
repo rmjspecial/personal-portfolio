@@ -196,6 +196,14 @@ header {
   margin-bottom: 30px;
 }
 
+.works-grid-item img {
+  transition: 0.3s ease-in-out;
+}
+
+.works-grid-item img:hover {
+  transform: scale(1.1);
+}
+
 .work-period ul {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -388,6 +396,11 @@ h2.section-title {
   padding-left: 16px;
   padding-top: 2px;
   margin: auto;
+  transition: 0.3s ease-in;
+}
+
+.msg-dsc:hover {
+  transform: translate(30px);
 }
 
 .contact_container .form {
