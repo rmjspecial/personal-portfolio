@@ -49,6 +49,17 @@ header {
   font-weight: 700;
   padding-left: 20px;
   padding-top: 12px;
+  animation: rotate 1s linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .menu-bar {
@@ -166,6 +177,10 @@ header {
   grid-column: 1;
 }
 
+.works-grid-container:hover {
+  transform: scale(1.1);
+}
+
 .works-grid-item {
   background-color: #fff;
   border: 1px solid #dfe1e6;
@@ -179,6 +194,14 @@ header {
   -ms-flex-direction: column;
   flex-direction: column;
   margin-bottom: 30px;
+}
+
+.works-grid-item img {
+  transition: 0.3s ease-in-out;
+}
+
+.works-grid-item img:hover {
+  transform: scale(1.1);
 }
 
 .work-period ul {
@@ -373,6 +396,11 @@ h2.section-title {
   padding-left: 16px;
   padding-top: 2px;
   margin: auto;
+  transition: 0.3s ease-in;
+}
+
+.msg-dsc:hover {
+  transform: translate(20px);
 }
 
 .contact_container .form {
