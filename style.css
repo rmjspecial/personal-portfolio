@@ -428,7 +428,7 @@ h2.section-title {
   z-index: -111;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 546px) {
   .container {
     max-width: 1156px;
     margin: 0 auto;
