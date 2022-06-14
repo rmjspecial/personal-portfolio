@@ -9,23 +9,32 @@
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>responsive website portfolio</title>
+    <title>responsive-website-portfolio</title>
   </head>
   <body>
     <header>
-      <div class="my-logo container">
-        <a href="#" class="logo">Rejoice</a>
-
-        <ul class="nav-elements">
-          <li class="element-nav"><a href="#">Portfolio</a></li>
-          <li class="element-nav"><a href="#">About</a></li>
-          <li class="element-nav"><a href="#">Contact</a></li>
-        </ul>
-        <nav class="menu-bar">
-          <i class="fas fa-bars"></i>
-        </nav>
-      </div>
+      <nav class="nav-bar">
+          <div class="logo logo-rotated">
+            <a href="#">Rejoice Evans</a>
+          </div>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul class="mobile-menu">
+            <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="menu-item"><a href="#about">About</a></li>
+            <li class="menu-item"><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
     </header>
+
     <section class="headline-wrap">
       <div class="flex container">
         <h1 class="greetings">
@@ -89,7 +98,7 @@
       </div>
     </section>
 
-    <section class="works container">
+    <section class="works container" id="portfolio">
       <div class="grid works-grid-container wrap padding-top-0">
         <div class="flex works-grid-item">
           <img
@@ -218,7 +227,7 @@
       </div>
     </section>
 
-    <section class="about-myself padding-top-114">
+    <section class="about-myself padding-top-114" id="about">
       <div class="flex about-wrap">
         <div class="container about-section">
           <div class="content-aboutleft">
@@ -385,7 +394,7 @@
       </div>
     </section>
 
-    <footer class="contact_container">
+    <footer class="contact_container" id="contact">
       <div class="background-contact"></div>
       <div class="background-white"></div>
       <div class="contact_bg">
@@ -432,5 +441,6 @@
         </div>
       </form>
     </footer>
+    <script src="./app.js"></script>
   </body>
 </html>
