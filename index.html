@@ -296,6 +296,7 @@
         />
 
         <input
+          id="input"
           type="email"
           name="email"
           required
@@ -314,7 +315,12 @@
         ></textarea>
 
         <div class="form-group">
-          <button type="submit" class="button button-enabled contact-button">
+          <div class="form-errors">Email should be in lowercase</div>
+          <button
+            type="submit"
+            class="button button-enabled contact-button"
+            onclick="validate()"
+          >
             Get In Touch
           </button>
         </div>
@@ -344,7 +350,7 @@
         </div>
         <div class="modal-body flex flex-column">
           <div class="modal-content flex flex-column">
-            <div class="modal-content-wrapper flex flex-column">
+            <div class="modal-content-wrapper flex-column">
               <div class="work-period work-modal-breadcrumbs">
                 <ul></ul>
               </div>
@@ -355,7 +361,7 @@
                   alt="Work Image"
                 />
               </div>
-              <div class="flex flex-column modal-content-text">
+              <div class="flex flex-column modal-content-text testt">
                 <p class="modal-description"></p>
                 <div class="other-details">
                   <div class="work-modal-languages">

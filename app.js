@@ -19,8 +19,10 @@ document.querySelectorAll('.menu-item').forEach((n) => n.addEventListener('click
 const works = {
   avocode: {
     title: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    details:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featured_image: 'image/facebook.png',
     lang_list: ['javascript', 'html', 'css'],
     breadcrumbs: ['Home', 'Works', 'Calenda'],
@@ -29,8 +31,10 @@ const works = {
   },
   calendar: {
     title: 'Calenda Web App',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    details:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featured_image: 'image/to-do-list.jpg',
     lang_list: ['javascript', 'html', 'css'],
     breadcrumbs: ['Home', 'Works', 'Calenda'],
@@ -39,8 +43,10 @@ const works = {
   },
   Styling: {
     title: 'Styling',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    details:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featured_image: 'image/styling.png',
     lang_list: ['javascript', 'html', 'css'],
     breadcrumbs: ['Home', 'Works', 'Calenda'],
@@ -49,8 +55,10 @@ const works = {
   },
   Fitness: {
     title: 'Fitness',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    details:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featured_image: 'image/fitness.png',
     lang_list: ['javascript', 'html', 'css'],
     breadcrumbs: ['Home', 'Works', 'Calenda'],
@@ -101,17 +109,26 @@ let index = 0;
 for (const key in works) {
   if (key) {
     index += 1;
-    workCard
-      += `
+    workCard += `
         <div class="flex works-grid-item ${workCardShouldReverse(index)}">
           <div class="work-image">
-            <img class="width-100" src="${works[key].featured_image}" alt="${works[key].title}">
+            <img class="width-100" src="${works[key].featured_image}" alt="${
+  works[key].title
+}">
           </div>
           <div class="flex work-details-wrapper">
           <h3 class="section-title margin-top-12">${works[key].title}</h3>
-          <div class="work-period"> <ul>${breadcrumbsHtml(works, key)} </ul> </div> 
-          <p class="work-description text-color-primary margin-top-20">${works[key].description}</p>
-          <ul class="work-categories margin-top-12 padding-0">${languageHtml(works, key)}</ul>
+          <div class="work-period"> <ul>${breadcrumbsHtml(
+    works,
+    key,
+  )} </ul> </div> 
+          <p class="work-description text-color-primary margin-top-20">${
+  works[key].description
+}</p>
+          <ul class="work-categories margin-top-12 padding-0">${languageHtml(
+    works,
+    key,
+  )}</ul>
           <button type="button" class="button button-enabled see-project-button" data-work="${key}">See Project</button>
           </div>
         </div>
@@ -135,7 +152,10 @@ function showWorkModal(work) {
   // add the breadcrumbs to the modal
   document.querySelector('.work-modal-breadcrumbs > ul').innerHTML = breadcrumbsHtml(works, work);
   // add the languages to the modal
-  document.querySelector('.work-modal-languages > ul').innerHTML = languageHtml(works, work);
+  document.querySelector('.work-modal-languages > ul').innerHTML = languageHtml(
+    works,
+    work,
+  );
   // add live demo link
   document.querySelector('#work-modal-live-demo').href = workDetails.live_demo;
   // add source link
@@ -147,10 +167,14 @@ function showWorkModal(work) {
 // show modal when see project button is clicked
 const seeProjectButtons = document.querySelectorAll('.see-project-button');
 seeProjectButtons.forEach((button) => {
-  button.addEventListener('click', (event) => {
-    showWorkModal(event.target.dataset.work);
-    document.querySelector('.modal').style.display = 'flex';
-  }, false);
+  button.addEventListener(
+    'click',
+    (event) => {
+      showWorkModal(event.target.dataset.work);
+      document.querySelector('.modal').style.display = 'flex';
+    },
+    false,
+  );
 });
 
 // close modal when the close button is clicked
