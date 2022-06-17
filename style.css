@@ -587,6 +587,16 @@ h2.section-title {
   z-index: -111;
 }
 
+.form-errors {
+  display: none;
+  background-color: #f57f7f;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: #751111;
+  margin-top: 0.625rem;
+}
+
 @media only screen and (max-width: 546px) {
   .nav-links {
     display: none;
