@@ -588,7 +588,7 @@ h2.section-title {
 }
 
 .form-errors {
-  display: none;
+  visibility: hidden;
   background-color: #f57f7f;
   padding: 0.625rem;
   border-radius: 0.5rem;
