@@ -76,9 +76,7 @@ a {
 }
 
 svg.modal-close {
-  float: right;
-  display: flex;
-  margin-bottom: 21px;
+  margin-top: 8px;
 }
 
 .modal-wrap {
@@ -91,8 +89,8 @@ svg.modal-close {
 }
 
 .modal-header {
+  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .modal-content-wrapper {
@@ -710,5 +708,4 @@ h2.section-title {
     gap: 2.25rem;
     padding-bottom: 3.875rem;
   }
-
 }
