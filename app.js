@@ -205,4 +205,3 @@ form.addEventListener('submit', (e) => {
     counter = 0;
   }
 });
-

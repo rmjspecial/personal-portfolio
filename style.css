@@ -608,6 +608,7 @@ h2.section-title {
 .description {
   display: flex;
   flex-direction: row;
+}
 
 .form-errors {
   visibility: hidden;
@@ -753,4 +754,3 @@ h2.section-title {
     max-width: 60%;
   }
 }
-  
