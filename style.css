@@ -608,6 +608,15 @@ h2.section-title {
 .description {
   display: flex;
   flex-direction: row;
+
+.form-errors {
+  visibility: hidden;
+  background-color: #f57f7f;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: #117554;
+  margin-top: 0.625rem;
 }
 
 @media only screen and (max-width: 546px) {
@@ -744,3 +753,4 @@ h2.section-title {
     max-width: 60%;
   }
 }
+  

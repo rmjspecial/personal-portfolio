@@ -182,3 +182,27 @@ const closeModal = document.querySelector('.modal-close');
 closeModal.addEventListener('click', () => {
   document.querySelector('.modal').style.display = 'none';
 });
+
+const form = document.querySelector('form');
+let counter = 0;
+function validate() {
+  const email = document.getElementById('input').value;
+  if (email !== email.toLowerCase()) {
+    document.querySelector('.form-errors').style.visibility = 'visible';
+    counter = 0;
+    return 0;
+  }
+  counter = 1;
+  return 0;
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  validate();
+  if (counter === 1) {
+    form.submit();
+  } else {
+    counter = 0;
+  }
+});
+
