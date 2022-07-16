@@ -22,7 +22,7 @@ const works = {
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
-      "this project is focused on building a website resyuarant where you can place online for different type of food and will be delivered at your door step. it is user friendly very easy to access.",
+      'this project is focused on building a website resyuarant where you can place online for different type of food and will be delivered at your door step. it is user friendly very easy to access.',
     featured_image: 'image/mile-stone.PNG',
     lang_list: ['javascript', 'html', 'css'],
     breadcrumbs: ['Home', 'Works', 'Calenda'],
