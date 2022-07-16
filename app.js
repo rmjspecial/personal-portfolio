@@ -22,12 +22,12 @@ const works = {
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featured_image: 'image/facebook.png',
+      "this project is focused on building a website resyuarant where you can place online for different type of food and will be delivered at your door step. it is user friendly very easy to access.",
+    featured_image: 'image/mile-stone.PNG',
     lang_list: ['javascript', 'html', 'css'],
     breadcrumbs: ['Home', 'Works', 'Calenda'],
     source: 'https://github.com/rmjspecial',
-    live_demo: 'https://github.com/rmjspecial/personal-portfolio',
+    live_demo: 'https://rmjspecial.github.io/Capstone-project-1/',
   },
   calendar: {
     title: 'Calenda Web App',
@@ -205,3 +205,35 @@ form.addEventListener('submit', (e) => {
     counter = 0;
   }
 });
+
+const Name = document.getElementById('fullname');
+const Email = document.getElementById('email');
+const Message = document.getElementById('message');
+
+let data = { fullname: '', email: '', message: '' };
+
+const saveToLocalStorage = () => {
+  localStorage.setItem('Data', JSON.stringify(data));
+};
+
+Name.addEventListener('change', () => {
+  data.fullname = Name.value;
+  saveToLocalStorage();
+});
+Email.addEventListener('change', () => {
+  data.email = Email.value;
+  saveToLocalStorage();
+});
+Message.addEventListener('change', () => {
+  data.message = Message.value;
+  saveToLocalStorage();
+});
+
+window.onload = () => {
+  if (localStorage.getItem('form_data') !== null) {
+    data = JSON.parse(localStorage.getItem('Data'));
+    Name.value = data.fullname;
+    Email.value = data.email;
+    Message.value = data.message;
+  }
+};
