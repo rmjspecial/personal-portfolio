@@ -20,27 +20,24 @@
 
 ## Live demo
 
- https://rmjspecial.github.io/personal-portfolio/
+ [live link](https://rmjspecial.github.io/personal-portfolio/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**my first portfolio-project, use figmad templates design to create a personal portfolio replicating all styles and pictures as seen as that on the figma page, using html/ css, flex and grid for styling**
+**some form validation to the check for user input if they are valid or not before submitting.**
 
+### To Access my project locally you can follow these steps
 
-To get a local copy up and running follow these simple example steps.
+1. Enter this url: <[https://github.com/rmjspecial/personal-portfolio](https://github.com/rmjspecial/personal-portfolio)> in your web browser.
+2. Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+3. Select download Zip option from drop down menu.
+4. Once the download is complete you will be able to access my project locally.
+   Here is my repository link: <[https://github.com/rmjspecial/personal-portfolio](https://github.com/rmjspecial/personal-portfolio)>
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+-need to have basic knowledge of html/css, javascript and how to use a code editor and a basic knowledge of version control.
 
 
 👤 **Author1**
